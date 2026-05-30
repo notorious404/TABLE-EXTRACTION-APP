@@ -1,1 +1,49 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
 
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+*.env
+
+# --- Streamlit cache ---
+.streamlit/
+.streamlit/cache/
+.streamlit/secrets.toml
+
+# --- Logs & reports ---
+*.log
+logs/
+*.pdf
+*.docx
+output/
+reports/
+
+# --- IDE & OS files ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Jupyter / notebooks (if used) ---
+.ipynb_checkpoints/
+
+# --- Test & coverage ---
+.coverage
+htmlcov/
+.cache/
+pytest_cache/
+
+# --- Misc ---
+*.bak
+*.swp
